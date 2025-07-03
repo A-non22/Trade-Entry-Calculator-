@@ -73,7 +73,7 @@ with col2:
     qx_true_conf = st.selectbox("QX True Conf (Total credit -1)", options=[0, 1], key="qx_true_conf")
 
     # Calculate for App 2
-    base_total_credit_2 = 16  # Already correct
+    base_total_credit_2 = 17  # Already correct
     obtained_credit_2 = (mdrc + structure + m7_box + svp + bml + mb +
                          db + wdrc_mid + drc + limiter + drib +
                          ddr_zero + qx_true_conf)
