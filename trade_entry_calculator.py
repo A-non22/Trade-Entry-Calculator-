@@ -55,7 +55,7 @@ with col1:
 
 # ------------------- Calculator 2: Trade Entry Calculator -------------------
 with col2:
-    st.header("Trade Entry Calculators")
+    st.header("Trade Entry Calculator")
 
     # Inputs for App 2
     mdrc = st.selectbox("MDRC (Total credit -3)", options=[0, 1, 2, 3], key="mdrc")
